@@ -1,6 +1,6 @@
 # CodeLogic 
 
-**Collaborators**: Amy Tan (a3tan@ucsd.edu), Adeline Liem (aliem@ucsd.edu), and Reeka Estacio (rdestaci@ucsd.edu)
+**Collaborators**: Amy Tan (amyjxtan@gmail.com), Adeline Liem (aliem@ucsd.edu), and Reeka Estacio (reekaestacio9@gmail.com)
 
 ## Features
 
