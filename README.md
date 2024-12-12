@@ -1,4 +1,6 @@
-# codelogic README
+# CodeLogic 
+
+**Collaborators**: Amy Tan (a3tan@ucsd.edu), Adeline Liem (aliem@ucsd.edu), and Reeka Estacio (rdestaci@ucsd.edu)
 
 ## Features
 
@@ -17,3 +19,4 @@ codeLogic requires axios: "^1.7.8" and dotenv: "^16.4.5".
 ## Sources
 
 This code was partially generated with the assistance of ChatGPT by OpenAI. For more information, visit [https://openai.com](https://openai.com).
+
