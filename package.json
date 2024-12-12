@@ -1,0 +1,51 @@
+{
+  "name": "codelogic",
+  "displayName": "Code Logic",
+  "description": "Highlight your code and get instant, clear explanations to understand logic effortlessly.",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.92.2"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "codelogic.explainCode",
+        "title": "Code Logic: Explain Code"
+      },
+      {
+        "command": "codelogic.viewHistory",
+        "title": "Code Logic: View Query History"
+      }
+    ],
+  "keybindings": [
+    {
+      "command": "codelogic.explainCode",
+      "key": "ctrl+alt+c",
+      "when": "editorTextFocus"
+    }
+  ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.92.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.13.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "dotenv": "^16.4.5"
+  }
+}
+
